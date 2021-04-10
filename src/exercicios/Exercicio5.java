@@ -1,0 +1,22 @@
+/*
+Exercício 5
+
+Faça um programa em JAVA, declarando uma variável do tipo inteiro (int), atribua um valor qualquer a esta variável, depois mostre o valor desta variável em uma mensagem.
+
+*/
+
+import javax.swing.JOptionPane;
+
+public class Exercicio5 {
+
+	public static void main(String[] args) {
+
+		int numero;
+		
+		numero = 2015;
+		
+		JOptionPane.showMessageDialog(null, numero);
+
+	}
+
+}
